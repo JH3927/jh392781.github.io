@@ -1,0 +1,186 @@
+<?php
+require_once __DIR__ . "/../public/header.php";
+require_once __DIR__ . "/../public/footer.php";
+session_start();
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Объявления</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/main.css">
+
+</head>
+<body>
+<header id="header" class="header">
+    <div class="container">
+        <link rel="stylesheet" href="css/main.css">
+
+        <div class='nav'>
+
+            <a href='/ASvito'>
+                <img src='C:\Users\Honor\Desktop\Новая папка/logo.png' class='logo'>
+            </a>
+            <img src='C:\Users\Honor\Desktop\Новая папка/loc.png' class='loc'>
+            <p class='city'>Липецк </p>
+
+            <ul class='menu'>
+
+                <li><a href='/place' id="addAdvertisement0">
+                        Разместить объявление
+                    </a>
+                </li>
+                <li>
+                    <button type='button' id='Button_Reg'>Регистрация</button>
+                </li>
+                <li>
+                    <button type='button' id='Button_Enter'>Вход</button>
+                </li>
+            </ul>
+
+            <button class='menu-open'>
+                <img src='../public/img/menu.svg'>
+            </button>
+        </div>
+</header>
+
+<section id="about" class="about">
+    <div class="container">
+        <h1>Удачный выбор для всех и для каждого</h1>
+        <p class="p1">Найди свое среди тысячи товаров!</p>
+        <a href="place">
+            <button type="button" class="mainbut" id="addAdvertisement">
+                Разместить объявление
+            </button>
+        </a>
+    </div>
+</section>
+
+<section>
+    <div class="container" style="
+    display: flex;
+    flex-wrap: wrap;
+">
+        <div id="fon"></div>
+        <div id="load"></div>
+        <div class="cards">
+            <a href="index1.php">
+                <a href="/card">
+                    <div class="card">
+                        <div class="inside">
+                            <p>Задача</p>
+                            <img class="img1" src="C:\Users\Honor\Desktop\Новая папка\cow.png">
+                            <p>2500₽</p>
+                        </div>
+                        <img src="img/card.png" class="imgcard">
+                    </div>
+                </a>
+        </div>
+        <div class="cards">
+            <a href="index1.php">
+                <a href="/card">
+                    <div class="card">
+                        <div class="inside">
+                            <p>Задача</p>
+                            <img class="img1" src="C:\Users\Honor\Desktop\Новая папка\cow.png">
+                            <p>2500₽</p>
+                        </div>
+                        <img src="img/card.png" class="imgcard">
+                    </div>
+                </a>
+        </div>
+        <div class="cards">
+            <a href="index1.php">
+                <a href="/card">
+                    <div class="card">
+                        <div class="inside">
+                            <p>Задача</p>
+                            <img class="img1" src="C:\Users\Honor\Desktop\Новая папка\cow.png">
+                            <p>2500₽</p>
+                        </div>
+                        <img src="img/card.png" class="imgcard">
+                    </div>
+                </a>
+        </div>
+        <div class="cards">
+            <a href="index1.php">
+                <a href="/card">
+                    <div class="card">
+                        <div class="inside">
+                            <p>Задача</p>
+                            <img class="img1" src="C:\Users\Honor\Desktop\Новая папка\cow.png">
+                            <p>2500₽</p>
+                        </div>
+                        <img src="img/card.png" class="imgcard">
+                    </div>
+                </a>
+        </div>
+        <div class="cards">
+            <a href="index1.php">
+                <a href="/card">
+                    <div class="card">
+                        <div class="inside">
+                            <p>Задача</p>
+                            <img class="img1" src="C:\Users\Honor\Desktop\Новая папка\cow.png">
+                            <p>2500₽</p>
+                        </div>
+                        <img src="img/card.png" class="imgcard">
+                    </div>
+                </a>
+        </div>
+        <div class="cards">
+            <a href="index1.php">
+                <a href="/card">
+                    <div class="card">
+                        <div class="inside">
+                            <p>Задача</p>
+                            <img class="img1" src="C:\Users\Honor\Desktop\Новая папка\cow.png">
+                            <p>2500₽</p>
+                        </div>
+                        <img src="img/card.png" class="imgcard">
+                    </div>
+                </a>
+        </div>
+    </div>
+</section>
+</body>
+<style>
+    #footer {
+        width: 100%;
+        height: 105px;
+        background: #459cff;
+        display: block;
+    }
+
+    .text {
+        font-size: 18px;
+        color: white;
+        display: flex;
+        font-size: 18px;
+        color: white;
+        align-items: center;
+        justify-content: space-between;
+    }
+</style>
+
+<footer id="footer">
+    <div class="container">
+        <div class="text">
+            <p class="mail">Разработчики:<br>
+                qwe@mail.ru<br>
+            </p>
+            <p class="mail">
+                Объявления.ru — сайт объявлений
+            </p>
+        </div>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+</body>
+</html>
